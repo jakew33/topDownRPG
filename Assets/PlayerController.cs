@@ -41,5 +41,4 @@ public class PlayerController : MonoBehaviour
     {
         movementInput = movementValue.Get<Vector2>();
     }
-
 }
