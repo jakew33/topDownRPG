@@ -5709,7 +5709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5227548601516973661, guid: bcfebed18490c314f805316663f9e7f0, type: 3}
       propertyPath: collisionOffset
-      value: 0.01
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 5227548601516973661, guid: bcfebed18490c314f805316663f9e7f0, type: 3}
       propertyPath: movementFilter.layerMask.m_Bits
