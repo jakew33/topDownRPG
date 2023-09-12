@@ -28,13 +28,13 @@ public class PlayerController : MonoBehaviour
         {
             bool success = TryMove(movementInput);
 
-            if (!success && movementInput.x > 0)
+            if (!success && movementInput.x != 0)
             {
                 success = TryMove(new Vector2(movementInput.x, 0));
 
             }
 
-            if (!success && movementInput.y > 0)
+            if (!success && movementInput.y != 0)
             {
                 success = TryMove(new Vector2(0, movementInput.y));
             }
